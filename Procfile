@@ -1,0 +1,1 @@
+web: java -Dserver.port=$PORT -jar build/libs/tp4_springboot-0.0.1-SNAPSHOT.jar

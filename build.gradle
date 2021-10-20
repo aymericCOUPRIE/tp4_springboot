@@ -13,9 +13,7 @@ repositories {
 }
 
 jar {
-    manifest {
-        attributes 'Main-Class': 'fr.polymtp.ig5.tp4_springboot.Tp4SpringbootApplication'
-    }
+    baseName = 'tp4-pringboot'
 }
 
 
@@ -29,6 +27,10 @@ dependencies {
 
 configurations.implementation{
     exclude module: "spring-boot-starter-tomcat"
+}
+
+task stage {
+    dependsOn build
 }
 
 test {
