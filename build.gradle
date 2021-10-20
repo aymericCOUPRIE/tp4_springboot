@@ -14,7 +14,7 @@ repositories {
 
 jar {
     manifest {
-        attributes 'Main-Class': './src/main/java/fr.polymtp.ig5.tp4_springboot.Tp4SpringBootApplication'
+        attributes 'Main-Class': 'fr.polymtp.ig5.tp4_springboot.Tp4SpringbootApplication'
     }
 }
 
