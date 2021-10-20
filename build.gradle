@@ -14,9 +14,10 @@ repositories {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'fr.polymtp.ig5.tp4_springboot.Tp4SpringBootApplication'
+        attributes 'Main-Class': './src/main/java/fr.polymtp.ig5.tp4_springboot.Tp4SpringBootApplication'
     }
 }
+
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
